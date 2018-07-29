@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from scrapy.http import Request
 import requests
 import json
-
+import re
 class ShuzhiSpider(scrapy.Spider):
     name = 'shuzhi'
     allowed_domains = ['www.sz.shu.edu.cn']
@@ -35,23 +34,6 @@ class ShuzhiSpider(scrapy.Spider):
     #     for Sort_url in Sorts_url:
     #         yield scrapy.Request(Sort_url, headers=self.header, callback=self.get_news_url)
 
-    def get_news_url(self, response):
-        """
-        使用深度优先的方法，首先提取出所有的新闻url再进一步进行内容提取
-        """
-        news_url = response.css(".Tongzhiul a::attr(href)").extract()
-        urls = []
-        for new_url in news_url:
-            if not new_url.startswith("http"):
-                url = "http://sz.shu.edu.cn"+new_url
-                urls.append(url)
-            else:
-                urls.append(new_url)
-        pass
-
-    def parse_detail(self, response):
-        pass
-
     def start_requests(self):
         return [scrapy.Request('http://www.sz.shu.edu.cn/Login.aspx', headers=self.header, callback=self.login)]
 
@@ -74,4 +56,33 @@ class ShuzhiSpider(scrapy.Spider):
         text_json = json.loads(response.text)
         if "message" in text_json and text_json["message"] == "成功":
             for url in self.start_urls:
-                yield scrapy.Request(url, dont_filter=True, headers=self.header,callback=self.get_news_url)
+                yield scrapy.Request(url, dont_filter=True, headers=self.header,callback=self.parse)
+
+
+    def parse(self, response):
+        """
+        使用深度优先的方法，获取所有新闻的url
+        """
+        news_url = response.css(".Tongzhiul a::attr(href)").extract()
+        szgonggao = []
+        xjtongzhi = []
+        jwxinxi = []
+        sxjiuye = []
+        xsshiwu = []
+        for new_url in news_url:
+            if not new_url.startswith("http"):
+                url = "http://sz.shu.edu.cn"+new_url
+                szgonggao.append(url)
+            if re.match(".*/info/(\d+)", new_url):
+                xjtongzhi.append(new_url)
+            if re.match(".*www.jwc.shu.edu.cn/.*", new_url):
+                jwxinxi.append(new_url)
+            if re.match(".*zbb.shu.edu.cn.*", new_url):
+                sxjiuye.append(new_url)
+            if re.match(".*xgb.shu.edu.cn.*", new_url):
+                xsshiwu.append(new_url)
+        pass
+
+    def parse_detail(self, response):
+        pass
+

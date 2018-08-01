@@ -10,7 +10,7 @@ class ShuzhiSpider(scrapy.Spider):
     agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
     header = {
         "Host": "www.sz.shu.edu.cn",
-        "Referer": "http://www.sz.shu.edu.cn/Login.aspx?ReturnUrl=http://www.sz.shu.edu.cn/index.aspx",
+        "Referer": "http://www.sz.shu.edu.cn/Index.aspx",
         "User-Agent": agent
     }
     session = requests.session()
@@ -37,7 +37,7 @@ class ShuzhiSpider(scrapy.Spider):
     def start_requests(self):
         return [scrapy.Request('http://www.sz.shu.edu.cn/Login.aspx', headers=self.header, callback=self.login)]
 
-    def login(self,response):
+    def login(self, response):
         #熟知网模拟登录实现
         post_url = "http://www.sz.shu.edu.cn/api/Sys/Users/Login"
         post_data = {
@@ -56,7 +56,7 @@ class ShuzhiSpider(scrapy.Spider):
         text_json = json.loads(response.text)
         if "message" in text_json and text_json["message"] == "成功":
             for url in self.start_urls:
-                yield scrapy.Request(url, dont_filter=True, headers=self.header,callback=self.parse)
+                yield scrapy.Request(url, dont_filter=True, headers=self.header, callback=self.parse)
 
 
     def parse(self, response):
@@ -81,8 +81,25 @@ class ShuzhiSpider(scrapy.Spider):
                 sxjiuye.append(new_url)
             if re.match(".*xgb.shu.edu.cn.*", new_url):
                 xsshiwu.append(new_url)
-        pass
+        for szgonggao_url in szgonggao:
+            yield scrapy.Request(szgonggao_url, headers=self.header, callback=self.szgonggao_detail)
+        for xjtongzhi_url in xjtongzhi:
+            yield scrapy.Request(xjtongzhi_url, headers=self.header, callback=self.xjtongxhi_detail)
+        for jwxinxi_url in jwxinxi:
+            yield scrapy.Request(jwxinxi_url, headers=self.header, callback=self.jwxinxi_detail)
+        for sxjiuye_url in sxjiuye:
+            yield scrapy.Request(sxjiuye_url, headers=self.header, callback=self.sxjiuye_detail)
+        for xsshiwu_url in xsshiwu:
+            yield scrapy.Request(xsshiwu_url, headers=self.header, callback=self.xsshiwu_detail)
 
-    def parse_detail(self, response):
+    def szgonggao_detail(self, response):
+        pass
+    def xjtongxhi_detail(self, response):
+        pass
+    def jwxinxi_detail(self, response):
+        pass
+    def sxjiuye_detail(self,response):
+        pass
+    def xsshiwu_detail(self, response):
         pass
 

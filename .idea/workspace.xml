@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" line="32" />
+    <bookmark url="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" line="36" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e39af1c-fc00-4252-b72a-b426cda7bb56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmassageScrapy/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmassageScrapy/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +20,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SHUmassageScrapy$shuzhi_login_requests.coverage" NAME="shuzhi_login_requests Coverage Results" MODIFIED="1532752442972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy/until" />
     <SUITE FILE_PATH="coverage/SHUmassageScrapy$mian.coverage" NAME="mian Coverage Results" MODIFIED="1532852419237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$mian.coverage" NAME="mian Coverage Results" MODIFIED="1533106112689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$mian.coverage" NAME="mian Coverage Results" MODIFIED="1533212110825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SHUmassageScrapy$shuzhi.coverage" NAME="shuzhi Coverage Results" MODIFIED="1532754181933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy/spiders" />
-    <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$shuzhi.coverage" NAME="shuzhi Coverage Results" MODIFIED="1532860905512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy/spiders" />
+    <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$shuzhi.coverage" NAME="shuzhi Coverage Results" MODIFIED="1533195549470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy/spiders" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="472" />
@@ -74,37 +76,42 @@
     <session id="-151532514">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1048" />
+          <entry key="py" value="1803" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="1048" />
+          <entry key="Python" value="1803" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
+          <entry key="Ini" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="cfg" value="1" />
           <entry key="html" value="1" />
+          <entry key="md" value="1" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="2" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -114,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+            <state relative-caret-position="230">
+              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -124,45 +131,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/twisted/internet/defer.py">
+        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15312">
-              <caret line="652" selection-start-line="652" selection-end-line="652" />
+            <state relative-caret-position="-826">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text.html">
+        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="360">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
               <folding>
                 <element signature="e#25#59#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/until/shuzhi_login_requests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -178,6 +171,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FEED_EXPORT_ENCODING</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -189,6 +187,8 @@
         <option value="$PROJECT_DIR$/mian.py" />
         <option value="$PROJECT_DIR$/SHUmassageScrapy/text.html" />
         <option value="$PROJECT_DIR$/text.html" />
+        <option value="$PROJECT_DIR$/SHUmassageScrapy/settings.py" />
+        <option value="$PROJECT_DIR$/SHUmassageScrapy/items.py" />
         <option value="$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" />
       </list>
     </option>
@@ -200,9 +200,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="1898" />
+    <option name="y" value="96" />
+    <option name="width" value="1910" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -340,8 +341,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.mian" />
-        <item itemvalue="JavaScript Debug.text.html" />
         <item itemvalue="Python.shuzhi" />
+        <item itemvalue="JavaScript Debug.text.html" />
         <item itemvalue="Python.shuzhi_login_requests" />
       </list>
     </recent_temporary>
@@ -361,15 +362,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17807487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18449198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5192308" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5192308" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,6 +406,11 @@
           <line>40</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -432,18 +437,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/main.py" />
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/http/request/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -459,45 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/twisted/internet/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="671" selection-start-line="671" selection-end-line="671" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/utils/misc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -515,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/twisted/internet/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="1266" selection-start-line="1266" selection-end-line="1266" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.5/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-998">
@@ -529,6 +486,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/text.html" />
     <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/twisted/internet/defer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15312">
@@ -536,27 +494,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/until/shuzhi_login_requests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
+        <state relative-caret-position="830">
           <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text.html">
+    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="252">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/utils/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/twisted/internet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1271" selection-start-line="1271" selection-end-line="1271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/twisted/internet/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="671" selection-start-line="671" selection-end-line="671" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-826">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/mian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
           <folding>
             <element signature="e#25#59#0" expanded="true" />
           </folding>
@@ -565,8 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+        <state relative-caret-position="230">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>

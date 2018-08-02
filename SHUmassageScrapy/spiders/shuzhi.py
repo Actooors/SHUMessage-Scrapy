@@ -3,6 +3,10 @@ import scrapy
 import requests
 import json
 import re
+from scrapy.loader import ItemLoader
+from SHUmassageScrapy.items import ShumassagescrapyItem
+
+
 class ShuzhiSpider(scrapy.Spider):
     name = 'shuzhi'
     allowed_domains = ['www.sz.shu.edu.cn']
@@ -81,8 +85,8 @@ class ShuzhiSpider(scrapy.Spider):
                 sxjiuye.append(new_url)
             if re.match(".*xgb.shu.edu.cn.*", new_url):
                 xsshiwu.append(new_url)
-        for szgonggao_url in szgonggao:
-            yield scrapy.Request(szgonggao_url, headers=self.header, callback=self.szgonggao_detail)
+        # for szgonggao_url in szgonggao:
+        #     yield scrapy.Request(szgonggao_url, headers=self.header, callback=self.szgonggao_detail)
         for xjtongzhi_url in xjtongzhi:
             yield scrapy.Request(xjtongzhi_url, headers=self.header, callback=self.xjtongxhi_detail)
         for jwxinxi_url in jwxinxi:
@@ -92,9 +96,22 @@ class ShuzhiSpider(scrapy.Spider):
         for xsshiwu_url in xsshiwu:
             yield scrapy.Request(xsshiwu_url, headers=self.header, callback=self.xsshiwu_detail)
 
-    def szgonggao_detail(self, response):
-        pass
+    # def szgonggao_detail(self, response):
+    #     str = response.css(".Mianbody").extract().encode('utf-8')
+    #     pass
     def xjtongxhi_detail(self, response):
+        #实例化对象
+        new_info = ShumassagescrapyItem()
+        #获取新闻题目
+        new_info["newsTitle"]= response.css(".content .content-title h3::text").extract()[0]
+        for contents in response.css(".content .content-con span::text").extract():
+            content = content + contents
+        new_info["newnewsContent"] = content
+
+        time = response.css(".content .content-date i::text").extract()[0]
+        new_info["newTime"] = re.match("\d+-\d+-\d+", time)
+
+
         pass
     def jwxinxi_detail(self, response):
         pass

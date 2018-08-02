@@ -11,4 +11,7 @@ import scrapy
 class ShumassagescrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+
+    newsTitle = scrapy.Field()
+    newsContent = scrapy.Field()
+    newTime = scrapy.Field()

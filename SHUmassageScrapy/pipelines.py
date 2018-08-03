@@ -20,3 +20,4 @@ class MysqlPipeline(object):
 
         insert_sql = "insert into message_info(news_title, news_content, new_time) values (%s, %s,%d)"
         self.cursor.execute(insert_sql, (item["newsTitle"], item["newsContent"], item["newTime"]))
+        self.conn.commit()

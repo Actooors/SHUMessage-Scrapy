@@ -63,9 +63,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'SHUmassageScrapy.pipelines.ShumassagescrapyPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'SHUmassageScrapy.pipelines.ShumassagescrapyPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -78,12 +78,20 @@ ROBOTSTXT_OBEY = True
 # each remote server
 #AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Enable showing throttling stats for every response received:
-#AUTOTHROTTLE_DEBUG = False
+# AUTOTHROTTLE_DEBUG = True
 
 # Enable and configure HTTP caching (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 #HTTPCACHE_ENABLED = True
 #HTTPCACHE_EXPIRATION_SECS = 0
 #HTTPCACHE_DIR = 'httpcache'
-#HTTPCACHE_IGNORE_HTTP_CODES = []
+# HTTPCACHE_IGNORE_HTTP_CODES = [403]
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+HTTPERROR_ALLOWED_CODES = [403]
+
+#Mysql数据库的配置信息
+MYSQL_HOST = '118.25.130.89'
+MYSQL_DBNAME = 'shumessage'         #数据库名字
+MYSQL_USER = 'root'             #数据库账号
+MYSQL_PASSWD = '52655384'         #数据库密码
+MYSQL_PORT = 3306               #数据库端口，在dbhelper中使用

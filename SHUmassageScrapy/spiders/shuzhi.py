@@ -3,6 +3,8 @@ import scrapy
 import requests
 import json
 import re
+import datetime
+import os
 from scrapy.loader import ItemLoader
 from SHUmassageScrapy.items import ShumassagescrapyItem
 
@@ -88,13 +90,13 @@ class ShuzhiSpider(scrapy.Spider):
         # for szgonggao_url in szgonggao:
         #     yield scrapy.Request(szgonggao_url, headers=self.header, callback=self.szgonggao_detail)
         for xjtongzhi_url in xjtongzhi:
-            yield scrapy.Request(xjtongzhi_url, headers=self.header, callback=self.xjtongxhi_detail)
-        for jwxinxi_url in jwxinxi:
-            yield scrapy.Request(jwxinxi_url, headers=self.header, callback=self.jwxinxi_detail)
-        for sxjiuye_url in sxjiuye:
-            yield scrapy.Request(sxjiuye_url, headers=self.header, callback=self.sxjiuye_detail)
-        for xsshiwu_url in xsshiwu:
-            yield scrapy.Request(xsshiwu_url, headers=self.header, callback=self.xsshiwu_detail)
+            yield scrapy.Request(xjtongzhi_url, dont_filter=True, callback=self.xjtongxhi_detail)
+        # for jwxinxi_url in jwxinxi:
+        #     yield scrapy.Request(jwxinxi_url, headers=self.header, callback=self.jwxinxi_detail)
+        # for sxjiuye_url in sxjiuye:
+        #     yield scrapy.Request(sxjiuye_url, headers=self.header, callback=self.sxjiuye_detail)
+        # for xsshiwu_url in xsshiwu:
+        #     yield scrapy.Request(xsshiwu_url, headers=self.header, callback=self.xsshiwu_detail)
 
     # def szgonggao_detail(self, response):
     #     str = response.css(".Mianbody").extract().encode('utf-8')
@@ -103,16 +105,21 @@ class ShuzhiSpider(scrapy.Spider):
         #实例化对象
         new_info = ShumassagescrapyItem()
         #获取新闻题目
-        new_info["newsTitle"]= response.css(".content .content-title h3::text").extract()[0]
-        for contents in response.css(".content .content-con span::text").extract():
-            content = content + contents
-        new_info["newnewsContent"] = content
+        new_info["newsTitle"] = response.css(".content .content-title h3::text").extract()[0]
+        #获取新闻内容
+        if len(response.css(".content .content-con span::text").extract()):
+            contents = response.css(".content .content-con span::text").extract()
+            content = '\n'.join(contents)
+        else:
+            contents = response.css(".content .content-con p::text").extract()
+            content = '\n'.join(contents)
+        new_info["newsContent"] = content
+        #获取新闻发布时间
+        times = response.css(".content .content-date i::text").extract()[0]
+        time = re.findall(r"\d+-\d+-\d+", times)[0]
+        new_info["newTime"] = datetime.datetime.strptime(time, '%Y-%m-%d')
+        yield new_info
 
-        time = response.css(".content .content-date i::text").extract()[0]
-        new_info["newTime"] = re.match("\d+-\d+-\d+", time)
-
-
-        pass
     def jwxinxi_detail(self, response):
         pass
     def sxjiuye_detail(self,response):

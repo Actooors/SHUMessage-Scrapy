@@ -12,12 +12,14 @@ class ShumassagescrapyPipeline(object):
         return item
 
 class MysqlPipeline(object):
-    def _init_(self):
-        self.conn = pymysql.connect('118.25.130.89', 'root', '52655384', 'shumessage', charset='utf-8', use_unicode=True)
-        self.cursor = self.conn.cursor()
 
     def process_item(self, item, spider):
-
-        insert_sql = "insert into message_info(news_title, news_content, new_time) values (%s, %s,%d)"
-        self.cursor.execute(insert_sql, (item["newsTitle"], item["newsContent"], item["newTime"]))
-        self.conn.commit()
+        conn = pymysql.connect(host='118.25.130.89', user='root', passwd='52655384', db='shumessage', port=3306, charset='utf8')
+        cursor = conn.cursor()
+        cursor.execute(
+            "insert into message_info (news_title, news_content, new_time) values ('%s','%s','%s');"
+            % (item["newsTitle"], item["newsContent"], item["newTime"])
+        )
+        conn.commit()
+        cursor.close()  # 关闭游标
+        conn.close()  # 释放数据库资源

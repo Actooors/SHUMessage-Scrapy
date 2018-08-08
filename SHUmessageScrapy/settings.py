@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for SHUmassageScrapy project
+# Scrapy settings for SHUmessageScrapy project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,13 +9,13 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'SHUmassageScrapy'
+BOT_NAME = 'SHUmessageScrapy'
 
-SPIDER_MODULES = ['SHUmassageScrapy.spiders']
-NEWSPIDER_MODULE = 'SHUmassageScrapy.spiders'
+SPIDER_MODULES = ['SHUmessageScrapy.spiders']
+NEWSPIDER_MODULE = 'SHUmessageScrapy.spiders'
 FEED_EXPORT_ENCODING = 'utf-8'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'SHUmassageScrapy (+http://www.yourdomain.com)'
+#USER_AGENT = 'SHUmessageScrapy (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -46,13 +46,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'SHUmassageScrapy.middlewares.ShumassagescrapySpiderMiddleware': 543,
+#    'SHUmessageScrapy.middlewares.ShumassagescrapySpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'SHUmassageScrapy.middlewares.ShumassagescrapyDownloaderMiddleware': 543,
+#    'SHUmessageScrapy.middlewares.ShumassagescrapyDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -64,8 +64,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'SHUmassageScrapy.pipelines.ShumassagescrapyPipeline': 300,
-   'SHUmassageScrapy.pipelines.MysqlPipeline': 1
+   'SHUmessageScrapy.pipelines.ShumassagescrapyPipeline': 300,
+   'SHUmessageScrapy.pipelines.MysqlTwistedPipeline': 500
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -96,3 +96,5 @@ MYSQL_DBNAME = 'shumessage'         #数据库名字
 MYSQL_USER = 'root'             #数据库账号
 MYSQL_PASSWD = '52655384'         #数据库密码
 MYSQL_PORT = 3306               #数据库端口，在dbhelper中使用
+SQL_DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
+SQL_DATE_FORMAT = "%Y-%m-%d"

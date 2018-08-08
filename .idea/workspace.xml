@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" line="38" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="7e39af1c-fc00-4252-b72a-b426cda7bb56" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd36765a-a9b7-458c-b46c-0419a1989511.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dd36765a-a9b7-458c-b46c-0419a1989511.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/SHUnews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/enrolnews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/jwc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/librarynews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/news_mtgz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/spxw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/szSHU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/workSHU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/utils/SHUchengjiusys_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/utils/cjSys_cookies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/utils/cj_notice_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/utils/com.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/utils/cookies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SHUmessageScrapy/utils/szSys_cookies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/dupefilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/picklecompat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/scheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/spiders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_redis/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmassageScrapy/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmessageScrapy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmessageScrapy/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmessageScrapy/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmessageScrapy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHUmessageScrapy/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mian.py" beforeDir="false" afterPath="$PROJECT_DIR$/mian.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +49,7 @@
     <SUITE FILE_PATH="coverage/SHUmassageScrapy$shuzhi_login_requests.coverage" NAME="shuzhi_login_requests Coverage Results" MODIFIED="1532752442972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy/until" />
     <SUITE FILE_PATH="coverage/SHUmassageScrapy$mian.coverage" NAME="mian Coverage Results" MODIFIED="1532852419237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1533358555594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy" />
-    <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$mian.coverage" NAME="mian Coverage Results" MODIFIED="1533359551541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$mian.coverage" NAME="mian Coverage Results" MODIFIED="1533551501873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SHUmassageScrapy$shuzhi.coverage" NAME="shuzhi Coverage Results" MODIFIED="1532754181933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy/spiders" />
     <SUITE FILE_PATH="coverage/SHUMessage_Scrapy$shuzhi.coverage" NAME="shuzhi Coverage Results" MODIFIED="1533195549470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHUmassageScrapy/spiders" />
   </component>
@@ -52,13 +82,6 @@
         <item name="shumessage@118.25.130.89 [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="shumessage: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="shumessage@118.25.130.89 [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="shumessage: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="message_info: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -103,25 +126,27 @@
     <session id="-151532514">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3067" />
+          <entry key="md" value="13" />
+          <entry key="py" value="3098" />
           <entry key="sql" value="3" />
           <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="13" />
           <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="3067" />
+          <entry key="Python" value="3098" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
@@ -129,95 +154,115 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="3" />
-          <entry key="HTML" value="1" />
-          <entry key="Ini" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="Ini" value="2" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="34" />
+          <entry key="Python" value="63" />
           <entry key="SQL" value="1" />
-          <entry key="Scratch" value="2" />
+          <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cfg" value="1" />
-          <entry key="html" value="1" />
-          <entry key="md" value="1" />
+          <entry key="cfg" value="2" />
+          <entry key="html" value="2" />
+          <entry key="md" value="2" />
           <entry key="message_info" value="3" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="34" />
-          <entry key="sql" value="3" />
+          <entry key="py" value="63" />
+          <entry key="sql" value="4" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#153#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="336">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
-                <element signature="e#25#59#0" expanded="true" />
+                <element signature="e#25#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/pipelines.py">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dd36765a-a9b7-458c-b46c-0419a1989511/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/news_mtgz.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/SHUnews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="216">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#193#207#0" expanded="true" />
-                <marker date="1533358420818" expanded="true" signature="426:431" ph="..." />
+                <element signature="e#24#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://dd36765a-a9b7-458c-b46c-0419a1989511/schema/shumessage/table/message_info">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/spxw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/szSHU.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/workSHU.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-798">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -244,14 +289,27 @@
       <list>
         <option value="$PROJECT_DIR$/SHUmassageScrapy/until/shuzhi_login_requests.py" />
         <option value="$PROJECT_DIR$/SHUmassageScrapy/main.py" />
-        <option value="$PROJECT_DIR$/mian.py" />
         <option value="$PROJECT_DIR$/SHUmassageScrapy/text.html" />
         <option value="$PROJECT_DIR$/text.html" />
         <option value="$PROJECT_DIR$/SHUmassageScrapy/items.py" />
         <option value="$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py" />
-        <option value="$PROJECT_DIR$/SHUmassageScrapy/pipelines.py" />
         <option value="dd36765a-a9b7-458c-b46c-0419a1989511/schema/shumessage/table/message_info.sql" />
         <option value="$PROJECT_DIR$/SHUmassageScrapy/settings.py" />
+        <option value="$PROJECT_DIR$/SHUmassageScrapy/spiders/a.html" />
+        <option value="$PROJECT_DIR$/SHUmassageScrapy/spiders/jwc.py" />
+        <option value="$PROJECT_DIR$/SHUmassageScrapy/pipelines.py" />
+        <option value="$PROJECT_DIR$/SHUmassageScrapy/utils/cj_notice_json.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/utils/cj_notice_json.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/settings.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/utils/SHUchengjiusys_login.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/spiders/enrolnews.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/spiders/jwc.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/spiders/librarynews.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/spiders/SHUnews.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/spiders/spxw.py" />
+        <option value="$PROJECT_DIR$/SHUmessageScrapy/spiders/workSHU.py" />
+        <option value="$PROJECT_DIR$/mian.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -262,6 +320,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1920" />
     <option name="width" value="1920" />
     <option name="height" value="1026" />
   </component>
@@ -271,7 +330,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,29 +340,31 @@
             <path>
               <item name="SHUMessage-Scrapy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SHUMessage-Scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="SHUmassageScrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="SHUmessageScrapy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SHUMessage-Scrapy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SHUMessage-Scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="SHUmassageScrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="SHUmessageScrapy" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SHUMessage-Scrapy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SHUMessage-Scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="SHUmassageScrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="until" type="462c0819:PsiDirectoryNode" />
+              <item name="SHUmessageScrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowFind.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -312,6 +372,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/SHUmassageScrapy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/SHUmassageScrapy" />
@@ -461,31 +525,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1026" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1973262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20160428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42735043" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42630386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34962806" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34920636" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32905984" />
-      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32905984" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32879817" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.49893162" weight="0.20213903" />
+      <window_info active="true" anchor="right" id="Database" order="4" sideWeight="0.49893162" visible="true" weight="0.20213903" />
       <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50106835" side_tool="true" weight="0.20213903" />
     </layout>
   </component>
@@ -499,19 +564,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SHUmassageScrapy/until/shuzhi_login_requests.py</url>
+          <url>file://$PROJECT_DIR$/SHUmessageScrapy/until/shuzhi_login_requests.py</url>
           <line>46</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SHUmassageScrapy/until/shuzhi_login_requests.py</url>
+          <url>file://$PROJECT_DIR$/SHUmessageScrapy/until/shuzhi_login_requests.py</url>
           <line>40</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py</url>
+          <url>file://$PROJECT_DIR$/SHUmessageScrapy/spiders/shuzhi.py</url>
           <line>119</line>
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SHUmessageScrapy/spiders/enrolnews.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -541,32 +611,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/until/cookies.txt" />
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/main.py" />
-    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/http/request/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="86" column="44" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/scrapy/utils/misc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -600,17 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15312">
           <caret line="652" selection-start-line="652" selection-end-line="652" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -656,9 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/twisted/internet/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -683,19 +713,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48554f1e-b9c4-42b2-b056-cf4640203232/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dd36765a-a9b7-458c-b46c-0419a1989511/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/until/shuzhi_login_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/until/shuzhi_login_requests.py" />
     <entry file="file://$USER_HOME$/.virtualenvs/py3scrapy/local/lib/python3.5/site-packages/pymysql/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -717,51 +735,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/a.html" />
     <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/spiders/shuzhi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#153#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#25#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHUmassageScrapy/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#193#207#0" expanded="true" />
-            <marker date="1533358420818" expanded="true" signature="426:431" ph="..." />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="114" column="41" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -771,6 +749,183 @@
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#152#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_redis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_redis/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_redis/defaults.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_redis/dupefilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_redis/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_redis/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/utils/cjSys_cookies.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/utils/com.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/utils/cj_notice_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/utils/SHUchengjiusys_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/utils/szSys_cookies.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/enrolnews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/jwc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/librarynews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/news_mtgz.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/SHUnews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/spxw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/szSHU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/spiders/workSHU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHUmessageScrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#25#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dd36765a-a9b7-458c-b46c-0419a1989511/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
